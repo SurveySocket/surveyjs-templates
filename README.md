@@ -12,4 +12,4 @@ While SurveyJS model files are backwards compatible, some of the features invoke
 
 ### License ###
 
-MIT - see license file.
+MIT - see [license file](https://github.com/SurveySocket/surveyjs-templates/blob/master/LICENSE.txt).
