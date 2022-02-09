@@ -1,29 +1,15 @@
-# README #
+# SurveyJS Templates #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+JSON templates for surveys, calculators, and forms, which are compatible with the [SurveyJS](https://github.com/surveyjs/survey-library) library.
 
-### What is this repository for? ###
+### How to use this repository? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+You could use these templates as-is, or as starter kits for your own customized content.
 
-### How do I get set up? ###
+### Versions and Compatibility ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+While SurveyJS model files are backwards compatible, some of the features invoked by these JSON files may be missing in earlier versions. It is always best to use the latest version of the library.
 
-### Contribution guidelines ###
+### License ###
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+MIT - see license file.

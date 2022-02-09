@@ -1,0 +1,257 @@
+{
+    "title": "Customer Satisfaction Survey Template",
+    "logoPosition": "right",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "Likely To Recommend",
+        "title": "How likely is it that you would recommend this company to a friend or colleague?",
+        "rateMax": 10
+       },
+       {
+        "type": "radiogroup",
+        "name": "Satisfied Or Dissatisfied With Company",
+        "title": "Overall, how satisfied or dissatisfied are you with our company?",
+        "choices": [
+         {
+          "value": "Very Satisfied",
+          "text": "Very satisfied"
+         },
+         {
+          "value": "Somewhat Satisfied",
+          "text": "Somewhat satisfied"
+         },
+         {
+          "value": "Neither Satisfied Nor Dissatisfied",
+          "text": "Neither satisfied nor dissatisfied"
+         },
+         {
+          "value": "Somewhat Dissatisfied",
+          "text": "Somewhat dissatisfied"
+         },
+         {
+          "value": "Very Dissatisfied",
+          "text": "Very dissatisfied"
+         }
+        ]
+       },
+       {
+        "type": "checkbox",
+        "name": "Describe Our Products",
+        "title": "How would you describe our products and services? Select all that apply.",
+        "choices": [
+         "Reliable",
+         {
+          "value": "High Quality",
+          "text": "High quality"
+         },
+         "Useful",
+         "Unique",
+         {
+          "value": "Good Value For Money",
+          "text": "Good value for money"
+         },
+         {
+          "value": "item6",
+          "text": "Overpriced"
+         },
+         {
+          "value": "Overpriced",
+          "text": "Impractical"
+         },
+         "Ineffective",
+         {
+          "value": "Poor Quality",
+          "text": "Poor quality"
+         },
+         "Unreliable"
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "How well did we meet your needs",
+        "title": "How well did our products and services meet your needs?",
+        "choices": [
+         {
+          "value": "Extremely Well",
+          "text": "Extremely well"
+         },
+         {
+          "value": "Very Well",
+          "text": "Very well"
+         },
+         {
+          "value": "Somewhat Well",
+          "text": "Somewhat well"
+         },
+         {
+          "value": "Not So Well",
+          "text": "Not so well"
+         },
+         {
+          "value": "Not At All Well",
+          "text": "Not at all well"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "Rate Value For Money",
+        "title": "How would you rate the value for money of our products or services?",
+        "choices": [
+         "Excellent",
+         {
+          "value": "Above Average",
+          "text": "Above average"
+         },
+         "Average",
+         {
+          "value": "Below Average",
+          "text": "Below average"
+         },
+         "Poor"
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "Rate the quality of products and services",
+        "title": "How would you rate the quality of our products and services?",
+        "choices": [
+         {
+          "value": "Very high",
+          "text": "Very high quality"
+         },
+         {
+          "value": "High",
+          "text": "High quality"
+         },
+         {
+          "value": "Neither High Nor Low",
+          "text": "Neither high nor low quality"
+         },
+         {
+          "value": "Low",
+          "text": "Low quality"
+         },
+         {
+          "value": "Very Low",
+          "text": "Very low quality"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "How Responsive Have We Been",
+        "title": "How responsive have we been to your questions support requests?",
+        "choices": [
+         {
+          "value": "Extremely Responseive",
+          "text": "Extremely responsive"
+         },
+         {
+          "value": "Very Responseive",
+          "text": "Very responsive"
+         },
+         {
+          "value": "Somewhat Responseive",
+          "text": "Somewhat responsive"
+         },
+         {
+          "value": "Not So Responseive",
+          "text": "Not so responsive"
+         },
+         {
+          "value": "Not At All Responseive",
+          "text": "Not at all responsive"
+         }
+        ],
+        "hasNone": true,
+        "noneText": "Not applicable"
+       },
+       {
+        "type": "radiogroup",
+        "name": "How Long Have You Been A Customer",
+        "title": "How long have you been a customer of ours?",
+        "choices": [
+         {
+          "value": "First Purchase",
+          "text": "This is my first purchase"
+         },
+         {
+          "value": "Less Than Six Months",
+          "text": "Less than six months"
+         },
+         {
+          "value": "Six To Twelve Months",
+          "text": "Six months to a year"
+         },
+         {
+          "value": "One To Two Years",
+          "text": "1 - 2 years"
+         },
+         {
+          "value": "Three Or More Years",
+          "text": "3 or more years"
+         },
+         {
+          "value": "Have Not Purchased Yet",
+          "text": "I haven't made a purchase yet"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "How Likely To Purchase",
+        "title": "How likely are you to purchase any of our products or services again?",
+        "choices": [
+         {
+          "value": "Extremely Likely",
+          "text": "Extremely likely"
+         },
+         {
+          "value": "Very Likely",
+          "text": "Very likely"
+         },
+         {
+          "value": "Somewhat Likely",
+          "text": "Somewhat likely"
+         },
+         {
+          "value": "Not so Likely",
+          "text": "Not so likely"
+         },
+         {
+          "value": "Not at all Likely",
+          "text": "Not at all likely"
+         }
+        ]
+       },
+       {
+        "type": "comment",
+        "name": "Other Comments",
+        "title": "Do you have any other questions or comments?"
+       },
+       {
+        "type": "boolean",
+        "name": "Can We Contact You",
+        "title": "Can we contact you if we have questions about your feedback?"
+       },
+       {
+        "type": "text",
+        "name": "Email Address",
+        "visibleIf": "{Can We Contact You} = true",
+        "title": "What is your email address?",
+        "validators": [
+         {
+          "type": "email"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "questionsOnPageMode": "singlePage"
+   }
