@@ -1,0 +1,166 @@
+{
+    "title": "Event Feedback Template",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "rating",
+        "name": "How likely to recommend",
+        "title": "How likely is it that you would recommend the event to a friend or colleague?",
+        "rateMax": 10
+       },
+       {
+        "type": "radiogroup",
+        "name": "Rate the event",
+        "title": "Overall, how would you rate the event?",
+        "choices": [
+         {
+          "value": "Excellent",
+          "text": "Excellent"
+         },
+         {
+          "value": "Very good",
+          "text": "Very good"
+         },
+         {
+          "value": "Good",
+          "text": "Good"
+         },
+         {
+          "value": "Fair",
+          "text": "Fair"
+         },
+         {
+          "value": "Poor",
+          "text": "Poor"
+         }
+        ]
+       },
+       {
+        "type": "comment",
+        "name": "What did you like about the event",
+        "title": "What did you like about the event?"
+       },
+       {
+        "type": "comment",
+        "name": "What did you dislike about the event",
+        "title": "What did you dislike about the event?"
+       },
+       {
+        "type": "radiogroup",
+        "name": "How organized was the event",
+        "title": "How organized was the event?",
+        "choices": [
+         {
+          "value": "Extremely organized",
+          "text": "Extremely organized"
+         },
+         {
+          "value": "Very organized",
+          "text": "Very organized"
+         },
+         {
+          "value": "Somewhat organized",
+          "text": "Somewhat organized"
+         },
+         {
+          "value": "Not so organized",
+          "text": "Not so organized"
+         },
+         {
+          "value": "Not at all organized",
+          "text": "Not at all organized"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "How friendly was the staff",
+        "title": "How friendly was the staff?",
+        "choices": [
+         {
+          "value": "Extremely friendly",
+          "text": "Extremely friendly"
+         },
+         {
+          "value": "Very friendly",
+          "text": "Very friendly"
+         },
+         {
+          "value": "Somewhat friendly",
+          "text": "Somewhat friendly"
+         },
+         {
+          "value": "Not so friendly",
+          "text": "Not so friendly"
+         },
+         {
+          "value": "Not at all friendly",
+          "text": "Not at all friendly"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "How helpful was the staff",
+        "title": "How helpful was the staff?",
+        "choices": [
+         {
+          "value": "Extremely helpful",
+          "text": "Extremely helpful"
+         },
+         {
+          "value": "Very helpful",
+          "text": "Very helpful"
+         },
+         {
+          "value": "Somewhat helpful",
+          "text": "Somewhat helpful"
+         },
+         {
+          "value": "Not so helpful",
+          "text": "Not so helpful"
+         },
+         {
+          "value": "Not at all helpful",
+          "text": "Not at all helpful"
+         }
+        ]
+       },
+       {
+        "type": "radiogroup",
+        "name": "How was the length of the event",
+        "title": "How was the length of the event?",
+        "choices": [
+         {
+          "value": "Much too long",
+          "text": "Much too long"
+         },
+         {
+          "value": "Too long",
+          "text": "Too long"
+         },
+         {
+          "value": "About right",
+          "text": "About right"
+         },
+         {
+          "value": "Too short",
+          "text": "Too short"
+         },
+         {
+          "value": "Much too short",
+          "text": "Much too short"
+         }
+        ]
+       },
+       {
+        "type": "comment",
+        "name": "Additional comments",
+        "title": "Do you have any additional comments about the event?"
+       }
+      ]
+     }
+    ]
+   }
